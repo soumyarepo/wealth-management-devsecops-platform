@@ -1,0 +1,5 @@
+project_name        = "wealth-management-platform"
+environment         = "dev"
+aws_region          = "ap-south-1"
+allowed_cidr_blocks = ["10.10.0.0/16"]
+cost_center         = "WM-DEV"
