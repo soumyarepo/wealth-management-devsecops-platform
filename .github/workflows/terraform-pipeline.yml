@@ -1,11 +1,11 @@
 name: Wealth Management Terraform DevSecOps Pipeline
 
 on:
+  workflow_dispatch:
   push:
     branches:
-      - develop
-      - uat
       - main
+      - master
     paths:
       - 'modules/**'
       - 'environments/**'
