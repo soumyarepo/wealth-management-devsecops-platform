@@ -4,7 +4,7 @@ This project demonstrates a secure Terraform module structure for a Wealth Manag
 
 ## What this project includes
 
-- Reusable Terraform module
+- Reusable Terraform modules
 - Dev, UAT, Prod environment separation
 - Remote Terraform backend using S3 and DynamoDB locking
 - Backend encryption enabled
